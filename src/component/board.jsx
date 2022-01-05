@@ -4,6 +4,7 @@ import Square from "./square";
 function Board(props){
     const renderSquare = i => <Square 
             value = {props.squares[i]}
+            // onClick = {()=>props.onClick(i)}
             onClick = {()=>props.onClick(i)}
         />
     return(
